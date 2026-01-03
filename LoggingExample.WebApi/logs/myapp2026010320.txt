@@ -1,0 +1,22 @@
+2026-01-03 20:05:05.343 +06:30 [INF] Starting web application
+2026-01-03 20:05:05.726 +06:30 [INF] Now listening on: https://localhost:7156
+2026-01-03 20:05:05.727 +06:30 [INF] Now listening on: http://localhost:5114
+2026-01-03 20:05:05.729 +06:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-03 20:05:05.729 +06:30 [INF] Hosting environment: Development
+2026-01-03 20:05:05.729 +06:30 [INF] Content root path: /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/LoggingExample.WebApi
+2026-01-03 20:05:06.229 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7156/swagger/index.html - -
+2026-01-03 20:05:06.369 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 141.0156ms
+2026-01-03 20:05:06.507 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7156/swagger/v1/swagger.json - -
+2026-01-03 20:05:06.580 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.1931ms
+2026-01-03 20:06:08.509 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7156/WeatherForecast - -
+2026-01-03 20:06:08.526 +06:30 [INF] Executing endpoint 'LoggingExample.WebApi.Controllers.WeatherForecastController.Get (LoggingExample.WebApi)'
+2026-01-03 20:06:08.561 +06:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingExample.WebApi.WeatherForecast] Get() on controller LoggingExample.WebApi.Controllers.WeatherForecastController (LoggingExample.WebApi).
+2026-01-03 20:06:08.573 +06:30 [INF] Executing action method LoggingExample.WebApi.Controllers.WeatherForecastController.Get (LoggingExample.WebApi) - Validation state: "Valid"
+2026-01-03 20:06:08.580 +06:30 [INF] GetWeatherForecast -- Started
+2026-01-03 20:06:08.643 +06:30 [INF] List => [{"Date":"2026-01-04","TemperatureC":36,"TemperatureF":96,"Summary":"Bracing"},{"Date":"2026-01-05","TemperatureC":-11,"TemperatureF":13,"Summary":"Chilly"},{"Date":"2026-01-06","TemperatureC":12,"TemperatureF":53,"Summary":"Warm"},{"Date":"2026-01-07","TemperatureC":38,"TemperatureF":100,"Summary":"Scorching"},{"Date":"2026-01-08","TemperatureC":3,"TemperatureF":37,"Summary":"Sweltering"}]
+2026-01-03 20:06:08.643 +06:30 [INF] GetWeatherForecast -- End
+2026-01-03 20:06:08.645 +06:30 [INF] Executed action method LoggingExample.WebApi.Controllers.WeatherForecastController.Get (LoggingExample.WebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 66.4453ms.
+2026-01-03 20:06:08.650 +06:30 [INF] Executing ObjectResult, writing value of type 'LoggingExample.WebApi.WeatherForecast[]'.
+2026-01-03 20:06:08.668 +06:30 [INF] Executed action LoggingExample.WebApi.Controllers.WeatherForecastController.Get (LoggingExample.WebApi) in 104.7805ms
+2026-01-03 20:06:08.668 +06:30 [INF] Executed endpoint 'LoggingExample.WebApi.Controllers.WeatherForecastController.Get (LoggingExample.WebApi)'
+2026-01-03 20:06:08.668 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7156/WeatherForecast - - - 200 - application/json;+charset=utf-8 160.5247ms
