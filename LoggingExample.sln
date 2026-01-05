@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncDecExample.ConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncDecExample.WebApi", "EncDecExample.WebApi\EncDecExample.WebApi.csproj", "{07476C40-0F56-48EB-8301-11D37379124C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogExample.ConsoleApp", "SerilogExample.ConsoleApp\SerilogExample.ConsoleApp.csproj", "{4948BE00-2CDC-431E-8DA5-E77EC9604452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogExample.WebApi", "SerilogExample.WebApi\SerilogExample.WebApi.csproj", "{62A78F20-2918-4CCC-81E2-60FCAB9AF254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{07476C40-0F56-48EB-8301-11D37379124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07476C40-0F56-48EB-8301-11D37379124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07476C40-0F56-48EB-8301-11D37379124C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4948BE00-2CDC-431E-8DA5-E77EC9604452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4948BE00-2CDC-431E-8DA5-E77EC9604452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4948BE00-2CDC-431E-8DA5-E77EC9604452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4948BE00-2CDC-431E-8DA5-E77EC9604452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A78F20-2918-4CCC-81E2-60FCAB9AF254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A78F20-2918-4CCC-81E2-60FCAB9AF254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A78F20-2918-4CCC-81E2-60FCAB9AF254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A78F20-2918-4CCC-81E2-60FCAB9AF254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
