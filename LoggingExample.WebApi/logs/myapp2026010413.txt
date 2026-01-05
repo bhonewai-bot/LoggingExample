@@ -1,0 +1,17 @@
+2026-01-04 13:46:44.957 +06:30 [INF] Starting web application
+2026-01-04 13:46:45.429 +06:30 [INF] Now listening on: https://localhost:7156
+2026-01-04 13:46:45.430 +06:30 [INF] Now listening on: http://localhost:5114
+2026-01-04 13:46:45.432 +06:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-04 13:46:45.432 +06:30 [INF] Hosting environment: Development
+2026-01-04 13:46:45.432 +06:30 [INF] Content root path: /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/LoggingExample.WebApi
+2026-01-04 13:46:45.767 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7156/swagger/index.html - -
+2026-01-04 13:46:45.949 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7156/swagger/index.html - - - 200 - text/html;charset=utf-8 183.8633ms
+2026-01-04 13:46:45.969 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - -
+2026-01-04 13:46:45.972 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7156/swagger/swagger-ui-bundle.js - -
+2026-01-04 13:46:46.003 +06:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-01-04 13:46:46.003 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7156/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 33.6359ms
+2026-01-04 13:46:46.012 +06:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-01-04 13:46:46.013 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7156/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 41.2497ms
+2026-01-04 13:46:46.095 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7156/swagger/v1/swagger.json - -
+2026-01-04 13:46:46.166 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7156/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.8572ms
+2026-01-04 13:47:32.427 +06:30 [INF] Application is shutting down...
