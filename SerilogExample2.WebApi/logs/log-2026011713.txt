@@ -1,0 +1,80 @@
+2026-01-17 13:03:44.899 +06:30 [INF] Application is shutting down...
+2026-01-17 13:03:52.146 +06:30 [INF] Application is starting...
+2026-01-17 13:03:52.356 +06:30 [INF] Now listening on: https://localhost:7200
+2026-01-17 13:03:52.358 +06:30 [INF] Now listening on: http://localhost:5032
+2026-01-17 13:03:52.359 +06:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-17 13:03:52.359 +06:30 [INF] Hosting environment: Development
+2026-01-17 13:03:52.359 +06:30 [INF] Content root path: /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/SerilogExample2.WebApi
+2026-01-17 13:03:53.018 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2026-01-17 13:03:53.106 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 90.4457ms
+2026-01-17 13:03:53.170 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2026-01-17 13:03:53.228 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.7249ms
+2026-01-17 13:04:04.132 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/api/Testing/info - -
+2026-01-17 13:04:04.159 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestInfoLog (SerilogExample2.WebApi)'
+2026-01-17 13:04:04.179 +06:30 [INF] Route matched with {action = "TestInfoLog", controller = "Testing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestInfoLog() on controller SerilogExample2.WebApi.Controllers.TestingController (SerilogExample2.WebApi).
+2026-01-17 13:04:04.186 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.TestingController.TestInfoLog (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 13:04:04.194 +06:30 [INF] This is an information level log from ILogger
+2026-01-17 13:04:04.194 +06:30 [INF] This is an information level log from static Log
+2026-01-17 13:04:04.198 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.TestingController.TestInfoLog (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3507ms.
+2026-01-17 13:04:04.204 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-17 13:04:04.208 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.TestingController.TestInfoLog (SerilogExample2.WebApi) in 25.7069ms
+2026-01-17 13:04:04.208 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestInfoLog (SerilogExample2.WebApi)'
+2026-01-17 13:04:04.209 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/api/Testing/info - - - 200 - text/plain;+charset=utf-8 82.8820ms
+2026-01-17 13:04:34.518 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/api/Testing/warning - -
+2026-01-17 13:04:34.542 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestWarningLog (SerilogExample2.WebApi)'
+2026-01-17 13:04:34.551 +06:30 [INF] Route matched with {action = "TestWarningLog", controller = "Testing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestWarningLog() on controller SerilogExample2.WebApi.Controllers.TestingController (SerilogExample2.WebApi).
+2026-01-17 13:04:34.552 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.TestingController.TestWarningLog (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 13:04:34.553 +06:30 [INF] This is a warning level log from ILogger
+2026-01-17 13:04:34.553 +06:30 [WRN] This is a warning level log from static Log
+2026-01-17 13:04:34.553 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.TestingController.TestWarningLog (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.3137ms.
+2026-01-17 13:04:34.554 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-17 13:04:34.555 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.TestingController.TestWarningLog (SerilogExample2.WebApi) in 3.9866ms
+2026-01-17 13:04:34.556 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestWarningLog (SerilogExample2.WebApi)'
+2026-01-17 13:04:34.556 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/api/Testing/warning - - - 200 - text/plain;+charset=utf-8 39.2032ms
+2026-01-17 13:04:44.384 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/api/Testing/error - -
+2026-01-17 13:04:44.390 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestErrorLog (SerilogExample2.WebApi)'
+2026-01-17 13:04:44.397 +06:30 [INF] Route matched with {action = "TestErrorLog", controller = "Testing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestErrorLog() on controller SerilogExample2.WebApi.Controllers.TestingController (SerilogExample2.WebApi).
+2026-01-17 13:04:44.398 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.TestingController.TestErrorLog (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 13:04:44.402 +06:30 [ERR] This is an error level log with exception from ILogger
+System.InvalidOperationException: This is a test exception for error logging
+   at SerilogExample2.WebApi.Controllers.TestingController.TestErrorLog() in /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/SerilogExample2.WebApi/Controllers/TestingController.cs:line 44
+2026-01-17 13:04:44.452 +06:30 [ERR] This is an error level log with exception from static Log
+System.InvalidOperationException: This is a test exception for error logging
+   at SerilogExample2.WebApi.Controllers.TestingController.TestErrorLog() in /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/SerilogExample2.WebApi/Controllers/TestingController.cs:line 44
+2026-01-17 13:04:44.455 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.TestingController.TestErrorLog (SerilogExample2.WebApi) in 57.5741ms
+2026-01-17 13:04:44.456 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestErrorLog (SerilogExample2.WebApi)'
+2026-01-17 13:04:44.459 +06:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: This is a test exception for error logging
+   at SerilogExample2.WebApi.Controllers.TestingController.TestErrorLog() in /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/SerilogExample2.WebApi/Controllers/TestingController.cs:line 44
+   at lambda_method6(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-17 13:04:44.476 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/api/Testing/error - - - 500 - text/plain;+charset=utf-8 92.8532ms
+2026-01-17 13:05:08.098 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/api/Testing/mixed - -
+2026-01-17 13:05:08.101 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestMixedLogging (SerilogExample2.WebApi)'
+2026-01-17 13:05:08.110 +06:30 [INF] Route matched with {action = "TestMixedLogging", controller = "Testing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TestMixedLogging() on controller SerilogExample2.WebApi.Controllers.TestingController (SerilogExample2.WebApi).
+2026-01-17 13:05:08.110 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.TestingController.TestMixedLogging (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 13:05:08.124 +06:30 [INF] Processing order 1001 for customer John Doe
+2026-01-17 13:05:08.124 +06:30 [WRN] Large order ID detected: 1001
+2026-01-17 13:05:08.125 +06:30 [INF] Order 1001 processed successfully
+2026-01-17 13:05:08.126 +06:30 [INF] Sending email to test@gmail.com with subject: Test email
+2026-01-17 13:05:08.128 +06:30 [INF] Email successfully sent to test@gmail.com
+2026-01-17 13:05:08.129 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.TestingController.TestMixedLogging (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 17.9281ms.
+2026-01-17 13:05:08.129 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-17 13:05:08.129 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.TestingController.TestMixedLogging (SerilogExample2.WebApi) in 19.2601ms
+2026-01-17 13:05:08.129 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.TestingController.TestMixedLogging (SerilogExample2.WebApi)'
+2026-01-17 13:05:08.129 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/api/Testing/mixed - - - 200 - text/plain;+charset=utf-8 31.2424ms

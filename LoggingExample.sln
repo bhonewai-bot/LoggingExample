@@ -12,6 +12,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogExample.ConsoleApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogExample.WebApi", "SerilogExample.WebApi\SerilogExample.WebApi.csproj", "{62A78F20-2918-4CCC-81E2-60FCAB9AF254}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncDecExample.WebApi2", "EncDecExample.WebApi2\EncDecExample.WebApi2.csproj", "{E1D315C9-E02D-4BB8-B5A5-01331D8E135E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncDecExample.WebApi3", "EncDecExample.WebApi3\EncDecExample.WebApi3.csproj", "{467ED406-4434-4633-83AB-8919F82B6654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogExample2.WebApi", "SerilogExample2.WebApi\SerilogExample2.WebApi.csproj", "{C48CF0C9-AF74-49CF-B576-A30F1A11CE5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +48,17 @@ Global
 		{62A78F20-2918-4CCC-81E2-60FCAB9AF254}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A78F20-2918-4CCC-81E2-60FCAB9AF254}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A78F20-2918-4CCC-81E2-60FCAB9AF254}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D315C9-E02D-4BB8-B5A5-01331D8E135E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D315C9-E02D-4BB8-B5A5-01331D8E135E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D315C9-E02D-4BB8-B5A5-01331D8E135E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D315C9-E02D-4BB8-B5A5-01331D8E135E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467ED406-4434-4633-83AB-8919F82B6654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467ED406-4434-4633-83AB-8919F82B6654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467ED406-4434-4633-83AB-8919F82B6654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467ED406-4434-4633-83AB-8919F82B6654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48CF0C9-AF74-49CF-B576-A30F1A11CE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48CF0C9-AF74-49CF-B576-A30F1A11CE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48CF0C9-AF74-49CF-B576-A30F1A11CE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48CF0C9-AF74-49CF-B576-A30F1A11CE5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

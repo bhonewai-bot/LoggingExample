@@ -1,0 +1,57 @@
+2026-01-17 11:31:14.691 +06:30 [INF] Application is starting...
+2026-01-17 11:31:14.994 +06:30 [INF] Now listening on: https://localhost:7200
+2026-01-17 11:31:14.996 +06:30 [INF] Now listening on: http://localhost:5032
+2026-01-17 11:31:14.997 +06:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-17 11:31:14.997 +06:30 [INF] Hosting environment: Development
+2026-01-17 11:31:14.997 +06:30 [INF] Content root path: /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/SerilogExample2.WebApi
+2026-01-17 11:31:15.764 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger - -
+2026-01-17 11:31:15.813 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger - - - 301 0 - 49.1095ms
+2026-01-17 11:31:15.817 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2026-01-17 11:31:15.882 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 64.2722ms
+2026-01-17 11:31:15.922 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/swagger-ui.css - -
+2026-01-17 11:31:15.922 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/swagger-ui-bundle.js - -
+2026-01-17 11:31:15.942 +06:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-01-17 11:31:15.943 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/swagger-ui.css - - - 200 144929 text/css 20.2123ms
+2026-01-17 11:31:15.943 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/swagger-ui-standalone-preset.js - -
+2026-01-17 11:31:15.967 +06:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-01-17 11:31:15.971 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 28.1634ms
+2026-01-17 11:31:15.972 +06:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-01-17 11:31:15.972 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 49.3475ms
+2026-01-17 11:31:16.055 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2026-01-17 11:31:16.105 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/favicon-32x32.png - -
+2026-01-17 11:31:16.107 +06:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-01-17 11:31:16.107 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/favicon-32x32.png - - - 200 628 image/png 1.5042ms
+2026-01-17 11:31:16.125 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.4542ms
+2026-01-17 11:34:00.315 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/api/Product - -
+2026-01-17 11:34:00.343 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.ProductController.GetProducts (SerilogExample2.WebApi)'
+2026-01-17 11:34:00.376 +06:30 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProducts() on controller SerilogExample2.WebApi.Controllers.ProductController (SerilogExample2.WebApi).
+2026-01-17 11:34:00.381 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.ProductController.GetProducts (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 11:34:00.385 +06:30 [INF] GetProducts method called
+2026-01-17 11:34:00.386 +06:30 [INF] Retrieved 3 products
+2026-01-17 11:34:00.389 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.ProductController.GetProducts (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4708ms.
+2026-01-17 11:34:00.395 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-17 11:34:00.406 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.ProductController.GetProducts (SerilogExample2.WebApi) in 27.1745ms
+2026-01-17 11:34:00.406 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.ProductController.GetProducts (SerilogExample2.WebApi)'
+2026-01-17 11:34:00.407 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/api/Product - - - 200 - application/json;+charset=utf-8 94.2811ms
+2026-01-17 11:54:52.051 +06:30 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/Product application/json 3
+2026-01-17 11:54:52.067 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.ProductController.CreateProduct (SerilogExample2.WebApi)'
+2026-01-17 11:54:52.115 +06:30 [INF] Route matched with {action = "CreateProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateProduct(System.String) on controller SerilogExample2.WebApi.Controllers.ProductController (SerilogExample2.WebApi).
+2026-01-17 11:54:52.159 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.ProductController.CreateProduct (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 11:54:52.161 +06:30 [INF] Creating product: 4
+2026-01-17 11:54:52.161 +06:30 [INF] Product created successfully: 4
+2026-01-17 11:54:52.161 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.ProductController.CreateProduct (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.3431ms.
+2026-01-17 11:54:52.177 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-17 11:54:52.177 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.ProductController.CreateProduct (SerilogExample2.WebApi) in 55.8338ms
+2026-01-17 11:54:52.177 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.ProductController.CreateProduct (SerilogExample2.WebApi)'
+2026-01-17 11:54:52.177 +06:30 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/Product application/json 3 - 200 - text/plain;+charset=utf-8 130.1296ms
+2026-01-17 11:55:22.313 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/api/Product/6 - -
+2026-01-17 11:55:22.326 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.ProductController.GetProduct (SerilogExample2.WebApi)'
+2026-01-17 11:55:22.341 +06:30 [INF] Route matched with {action = "GetProduct", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetProduct(Int32) on controller SerilogExample2.WebApi.Controllers.ProductController (SerilogExample2.WebApi).
+2026-01-17 11:55:22.345 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.ProductController.GetProduct (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 11:55:22.347 +06:30 [INF] Retrieving product with ID: 6
+2026-01-17 11:55:22.348 +06:30 [INF] Product found: Product 6
+2026-01-17 11:55:22.348 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.ProductController.GetProduct (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3238ms.
+2026-01-17 11:55:22.348 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-17 11:55:22.349 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.ProductController.GetProduct (SerilogExample2.WebApi) in 7.2812ms
+2026-01-17 11:55:22.349 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.ProductController.GetProduct (SerilogExample2.WebApi)'
+2026-01-17 11:55:22.349 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/api/Product/6 - - - 200 - text/plain;+charset=utf-8 36.5632ms

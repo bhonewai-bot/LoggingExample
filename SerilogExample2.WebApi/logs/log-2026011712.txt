@@ -1,0 +1,67 @@
+2026-01-17 12:29:46.390 +06:30 [INF] Application is shutting down...
+2026-01-17 12:29:56.260 +06:30 [INF] Application is starting...
+2026-01-17 12:29:56.530 +06:30 [INF] Now listening on: https://localhost:7200
+2026-01-17 12:29:56.531 +06:30 [INF] Now listening on: http://localhost:5032
+2026-01-17 12:29:56.532 +06:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-17 12:29:56.532 +06:30 [INF] Hosting environment: Development
+2026-01-17 12:29:56.532 +06:30 [INF] Content root path: /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/SerilogExample2.WebApi
+2026-01-17 12:29:57.323 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2026-01-17 12:29:57.433 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 110.7486ms
+2026-01-17 12:29:57.569 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2026-01-17 12:29:57.636 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.7032ms
+2026-01-17 12:30:26.822 +06:30 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/Order/process/1?customerName=Bhone - 0
+2026-01-17 12:30:26.849 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi)'
+2026-01-17 12:30:26.903 +06:30 [INF] Route matched with {action = "ProcessOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessOrder(Int32, System.String) on controller SerilogExample2.WebApi.Controllers.OrderController (SerilogExample2.WebApi).
+2026-01-17 12:30:26.910 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi) in 1.7348ms
+2026-01-17 12:30:26.916 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi)'
+2026-01-17 12:30:26.917 +06:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'SerilogExample2.WebApi.Services.OrderService' while attempting to activate 'SerilogExample2.WebApi.Controllers.OrderController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-01-17 12:30:26.943 +06:30 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/Order/process/1?customerName=Bhone - 0 - 500 - text/plain;+charset=utf-8 121.1198ms
+2026-01-17 12:31:09.724 +06:30 [INF] Application is shutting down...
+2026-01-17 12:31:13.780 +06:30 [INF] Application is starting...
+2026-01-17 12:31:14.058 +06:30 [INF] Now listening on: https://localhost:7200
+2026-01-17 12:31:14.060 +06:30 [INF] Now listening on: http://localhost:5032
+2026-01-17 12:31:14.061 +06:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-17 12:31:14.061 +06:30 [INF] Hosting environment: Development
+2026-01-17 12:31:14.061 +06:30 [INF] Content root path: /Users/appleclub/Documents/Practice 2026/C#/LoggingExample/SerilogExample2.WebApi
+2026-01-17 12:31:14.293 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2026-01-17 12:31:14.421 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 132.3199ms
+2026-01-17 12:31:14.514 +06:30 [INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2026-01-17 12:31:14.579 +06:30 [INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.0355ms
+2026-01-17 12:31:22.128 +06:30 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/Order/process/1?customerName=Bhone - 0
+2026-01-17 12:31:22.158 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi)'
+2026-01-17 12:31:22.184 +06:30 [INF] Route matched with {action = "ProcessOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProcessOrder(Int32, System.String) on controller SerilogExample2.WebApi.Controllers.OrderController (SerilogExample2.WebApi).
+2026-01-17 12:31:22.214 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 12:31:22.222 +06:30 [INF] Processing order 1 for customer Bhone
+2026-01-17 12:31:22.224 +06:30 [INF] Order 1 processed successfully
+2026-01-17 12:31:22.228 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.6885ms.
+2026-01-17 12:31:22.258 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-17 12:31:22.269 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi) in 76.1843ms
+2026-01-17 12:31:22.270 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.OrderController.ProcessOrder (SerilogExample2.WebApi)'
+2026-01-17 12:31:22.275 +06:30 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/Order/process/1?customerName=Bhone - 0 - 200 - text/plain;+charset=utf-8 149.6330ms
+2026-01-17 12:32:29.569 +06:30 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/Order/cancel/1?reason=Damage%20 - 0
+2026-01-17 12:32:29.581 +06:30 [INF] Executing endpoint 'SerilogExample2.WebApi.Controllers.OrderController.CancelOrder (SerilogExample2.WebApi)'
+2026-01-17 12:32:29.592 +06:30 [INF] Route matched with {action = "CancelOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CancelOrder(Int32, System.String) on controller SerilogExample2.WebApi.Controllers.OrderController (SerilogExample2.WebApi).
+2026-01-17 12:32:29.596 +06:30 [INF] Executing action method SerilogExample2.WebApi.Controllers.OrderController.CancelOrder (SerilogExample2.WebApi) - Validation state: "Valid"
+2026-01-17 12:32:29.601 +06:30 [WRN] Cancelling order 1. Reason: Damage 
+2026-01-17 12:32:29.603 +06:30 [INF] Order 1 cancelled successfully
+2026-01-17 12:32:29.603 +06:30 [INF] Executed action method SerilogExample2.WebApi.Controllers.OrderController.CancelOrder (SerilogExample2.WebApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.3599ms.
+2026-01-17 12:32:29.604 +06:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-01-17 12:32:29.605 +06:30 [INF] Executed action SerilogExample2.WebApi.Controllers.OrderController.CancelOrder (SerilogExample2.WebApi) in 12.5766ms
+2026-01-17 12:32:29.605 +06:30 [INF] Executed endpoint 'SerilogExample2.WebApi.Controllers.OrderController.CancelOrder (SerilogExample2.WebApi)'
+2026-01-17 12:32:29.605 +06:30 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/Order/cancel/1?reason=Damage%20 - 0 - 200 - text/plain;+charset=utf-8 38.4200ms
